@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Apple</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos/style.css" and media="all"> 
+    <link rel="stylesheet" href="estilos/tela_maior.css" media="screen and (min-width:768px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="barra-sup">
+                <li id="logo"><a href="#"><i class='bx bxl-apple'></i></a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Só na Apple</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li> <a href="#">Suporte</a></li>
+        </nav>
+
+        <div id="barra-inf">
+            <div id="barra-inf-texto">iPhone 13 Pro</div>
+            <div id="barra-inf-links">
+                <a href="#">Visão geral</a>
+                <a href="#">Mudar para iPhone</a>
+                <a href="#">Especificações</a>
+                <button class="botao"><a href="https://www.apple.com/br/shop/buy-iphone/iphone-13" target="_blank">Comprar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <p id="texto-pgmto">Pague seu novo iPhone em até 12 parcelas ou economize 10% nos pagamentos à vista. <a href="https://www.apple.com/br/shop/browse/finance/installment" target="_blank">Saiba mais</a></p>
+        <h1 id="titulo">iPhone 13 Pro</h1>
+        <p id="subtitulo">É todo Pro.</p>   
+        <p id="descricao">O iPhone 13 Pro é uma enorme evolução. Ele traz uma rapidez absurda a tudo o que você faz <br>e vem com novos recursos espetaculares para fotos e vídeos. Tudo em dois tamanhos.</p>
+        <p id="preco">A partir de R$5.499</p>
+
+        <button class="botao"><a href="https://www.apple.com/br/shop/buy-iphone/iphone-13" target="_blank">Comprar</a></button>
+
+        <div>
+            <img id="img" src="imagens/iphone_golden.jpg" alt="iPhone 13">
+        </div>
+
+        <p>
+            <input onclick="corSelect()" type="radio" name="color" id="golden" value="golden" checked>
+            <input onclick="corSelect()" type="radio" name="color" id="grafite" value="grafite">
+            <input onclick="corSelect()" type="radio" name="color" id="blue" value="blue">
+            <input onclick="corSelect()" type="radio" name="color" id="silver" value="silver">
+            <input onclick="corSelect()" type="radio" name="color" id="green" value="green">
+        </p>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

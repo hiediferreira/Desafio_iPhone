@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+header>nav>ul>li a{
+    color: white;
+    padding: 10px;
+}
+
+div#barra-inf-texto{
+    text-align: left;
+    font-weight: bolder;
+}
+
+div#barra-inf-links a{
+    padding: 10px;
+}
+
+.botao{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #475CFA;
+}
+
+main p#subtitulo{
+    font-weight: bolder;
+    font-size: 4em;
+    padding-bottom: 20px;
+}
+
+main p#preco{
+    font-size: 1.5em;
+}
+
+img{
+    width: 500px;
+    padding: 20px;
+}
+  
+input[type="radio"]#blue{
+    -webkit-appearance: none;
+    background-color: #1E6FD9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+input[type="radio"]#blue:checked{
+    background-color: white;
+    border: 6px solid #1E6FD9;
+}
+    
+input[type="radio"]#golden{
+    -webkit-appearance: none;
+    background-color: #95711F;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+input[type="radio"]#golden:checked{
+    background-color: white;
+    border: 6px solid #95711F;
+}
+    
+input[type="radio"]#grafite{
+    -webkit-appearance: none;
+    background-color: #474747;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+input[type="radio"]#grafite:checked{
+    background-color: white;
+    border: 6px solid #474747;
+}
+    
+input[type="radio"]#green{
+    -webkit-appearance: none;
+    background-color: #2B8C44;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+input[type="radio"]#green:checked{
+    background-color: white;
+    border: 6px solid #2B8C44;
+}
+    
+input[type="radio"]#silver{
+    -webkit-appearance: none;
+    background-color: #03A696;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+input[type="radio"]#silver:checked{
+    background-color: white;
+    border: 6px solid #03A696;
+}
